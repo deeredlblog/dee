@@ -1,1 +1,82 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My blog</title>
+
+  
+
+  <!-- HTML -->
+
+  
+
+  <style>
+
+    body   { background-color: white;
+
+    }
+
+    p      { font-family: sans-serif;}
+
+    h2     { font-family: cursive;}
+
+    a      { font-weight: white;}
+
+    h4     { font-family: cursive}
+
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h2>Note</h2>
+
+  <p>Hi, im dewi..<br>
+
+     This is firts time im making a web or something like a blog (i also don't know hihii).</p>
+
+   <p> oh gaes, kalau kalian mau membuat nama domain.com sendiri itu kalian harus beli, beneran deh.</p>
+
+   <p>Kalau pun ada yang gratis, nama domain nya pun, harus ditambahi nama web tempat kalian meng-upload nya.</p>
+
+   <p>Nah contohnya seperti web yang kalian baca ini, kalian lihat di kolom pencarian nah itu, ada nama</p> 
+
+   <p><a herf="https://deeredlblog.github.io/deeredlblog.github.io/="><blod>'deeredlblog.github.io/deeredlblog
+
+   .github.io/'</blod> panjang banget bukan nama webnya.></a></p>
+
+     <p> apalagi kalau tujuan nya buat komersial, pelanggan/pengunjung kalian keburu lupa nama web kalian, kalau lupa kan bisa sepi pengunjung. jadinya kan ga bagus kalau buat komersil.</p>
+
+     <p> jadi jangan deh terlalu berharap kalau ada informasi yang buat nama domain sendiri itu gratis.</p>
+
+     <p> kalau kalian ada pertanyaan ataupun informasi tambahan yang berguna buat dibagikan, bisa kalian kirim masukan di bawah ini.</p> <p>buruan feedback sekarang biar aku perbaiki tampilannya, karena masukan kalian itu penyemangat tambahan hihii</p>
+
+    
+
+  <h4>feedback</h4>
+
+  <button><a href="https://instagram.com/dewi.khmairoigshid=YmMyMTA2M2Y="><strong> Ig </strong></a></button>
+
+  <button><a href="https://youtube.com/@dee-red"><strong> Subscribe 🔔 </strong></a></button>
+
+  <h4>Thank you so much.</h4>
+
+  
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
