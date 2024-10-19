@@ -1,3 +1,124 @@
 body {
-    font-size: 15pt;
+    font-family: Arial, sans-serif;
+    background-color: thistle;
+    padding: 22px 17px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 3px 14px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px #0000008F;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.logo {
+    color: #0000008F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.profile-pic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+}
+    
+.menu-icon {
+    display: block;
+    font-size: 21px;
+    color: #0000008F;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color:transparent;
+  }
+    
+.sidebar {
+    display: none;
+    width: 150px;
+    height: 50%;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px #0000008F;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+
+.sidebar-menu {
+    display: block;
+    width: 120px;
+    overflow: auto;
+    height: 300px;
+    margin:  25 auto;
+    padding: 0 6px 6px 0;
+}
+
+.sidebar-menu li {
+    margin: 43px;
+    font-weight: bold;
+    font-family: monospace;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+}
+
+.sidebar-menu a {
+    color: #0000008F;
+    text-decoration: none;
+    font-size: 12px;
+}
+      
+.main-content {
+    margin: 0 17px 0 17px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+    
+p { 
+  font-family: courier;
+  font-size: 19px;
+}
+    
+h2 { 
+  font-family: cursive;
+  font-size: 32px
+}
+  
+button { 
+  font-weight: bold;
+  background-color: cornsilk
+}
+
+button {
+  border-radius: 50px 50px 50px 50px
+} 
+
+h4 { 
+  font-family: cursive;
+  font-size: 19px
+}
+
+img {
+  border-radius: 31px;
+  width: 33px;
+  height: 31px;
+  
+}
+#next{
+  color: black ;
+  outline: none;
+    -webkit-tap-highlight-color: transparent;
+ } 
+ 
