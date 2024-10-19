@@ -1,1 +1,4 @@
-console.log('Hello World!');
+function toggleMenu() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = sidebar.style.display === 'flex' ? 'none' : 'flex';
+}
