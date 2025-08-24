@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: thistle;
+    padding: 22px 17px;
+}
+
+h5 {
+  color: gray;
+  font-family: Helvetica;
+}
+
+.container {
+  position: relative;
+}
+
+.kanan {
+  position: absolute;
+  top: 6%;
+  right: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 3px 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px #0000008F;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.logo {
+    color: #0000008F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.profile-pic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+}
+    
+.menu-icon {
+    display: block;
+    font-size: 21px;
+    color: #0000008F;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color:transparent;
+  }
+    
+.sidebar { 
+    display: none;
+    width: 40%;
+    max-width: 250px;
+    height: 35%;
+    background: whitesmoke;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+    z-index: 999;
+    top: 45px;
+   height: calc(100% - 550px);
+
+    scrollbar-width: thin;
+    scrollbar-color: gray transparent;
+}
+.sidebar::-webkit-scrollbar { width: 6px; }
+.sidebar::-webkit-scrollbar-thumb { background: lightgray ; border-radius: 3px; }t
+
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.sidebar-menu li {
+    padding: 12px 0;
+    font: bold 12px monospace;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+.sidebar-menu a:hover {
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.main-content {
+    margin: 40;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+    
+p { 
+  font-family: courier;
+  font-size: 19px;
+}
+    
+h2 { 
+  font-family: cursive;
+  font-size: 32px
+}
+  
+button { 
+  font-weight: bold;
+  background-color: cornsilk
+}
+
+button {
+  border-radius: 50px 50px 50px 50px
+} 
+
+h4 { 
+  font-family: cursive;
+  font-size: 19px
+}
+
+img {
+  border-radius: 31px;
+  width: 33px;
+  height: 31px;
+  
+}
+#next {
+  color: black ;
+  outline: none;
+    -webkit-tap-highlight-color: transparent;
+ } 
+ 
