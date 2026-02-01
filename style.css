@@ -19,7 +19,6 @@ h5 {
   right: 0;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -79,7 +78,7 @@ h5 {
     scrollbar-color: gray transparent;
 }
 .sidebar::-webkit-scrollbar { width: 6px; }
-.sidebar::-webkit-scrollbar-thumb { background: lightgray ; border-radius: 3px; }t
+.sidebar::-webkit-scrollbar-thumb { background: lightgray ; border-radius: 3px; }
 
 .sidebar-menu {
     list-style: none;
@@ -114,13 +113,14 @@ h2 {
   font-family: cursive;
   font-size: 32px
 }
-  
-button { 
-  font-weight: bold;
-  background-color: cornsilk
+
+.float-kanan {
+  float: right;
 }
 
-button {
+button{
+  font-weight: bold;
+  background-color: cornsilk;
   border-radius: 50px 50px 50px 50px
 } 
 
@@ -139,5 +139,5 @@ img {
   color: black ;
   outline: none;
     -webkit-tap-highlight-color: transparent;
- } 
+ }
  
