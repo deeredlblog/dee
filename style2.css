@@ -9,7 +9,7 @@ h1 {
 
 h4 {
   font-size: 19px;
-  font-family: cursive
+  font-family: cursive;
 }
 
 p2 {
@@ -27,7 +27,6 @@ h5 {
   right: 4%;
 }
 
-
 p {
  color: gray;
  font-weight: bold;
@@ -35,11 +34,22 @@ p {
  font-size: 17px;
 }
 
+.container {
+      display: flex;
+      gap: 5px;
+    }
+
+    .right-button {
+      margin-left: auto;
+    }
+
+
 button {
   background-color: thistle;
   font-weight: bold;
   border-radius: 50px 50px 50px 50px
-} 
+
+}
 
 #back{
   color: black;
